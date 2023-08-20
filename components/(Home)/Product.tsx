@@ -17,8 +17,9 @@ const Product: React.FC<ProductProp> = ({ product }) => {
                <p>{product.description}</p>
 
                <div className="flex flex-wrap gap-5">
-                  {product.images.map((image) => (
+                  {product.images.map((image, i) => (
                      <Image
+                        key={i}
                         src={image}
                         alt="product image"
                         height={500}

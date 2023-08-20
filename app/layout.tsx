@@ -1,10 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
 import Header from "@/components/(shared)/Header";
 import Footer from "@/components/(shared)/Footer";
-
-const Dmsans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
    title: "Osiris",
@@ -18,7 +15,7 @@ export default function RootLayout({
 }) {
    return (
       <html lang="en">
-         <body className={Dmsans.className}>
+         <body>
             {" "}
             <Header />
             {children}
