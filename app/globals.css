@@ -5,7 +5,12 @@
 @tailwind utilities;
 
 ::-webkit-scrollbar {
-   display: none;
+   width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #c1c1c1;
+   border-radius: 3px;
 }
 
 @layer base {
@@ -117,15 +122,61 @@
       }
    }
    button {
-      width: 8.75rem;
-      height: 2.5rem;
+      width: 18rem;
+      height: 2rem;
       border-radius: 0.25rem;
-      padding-inline: 16px;
+      border: 1px solid #000;
+      background-color: #fff;
+   }
+
+   button:hover {
+      background: #000;
+   }
+
+   button::selection {
+      background: #000;
+      color: #ffffff;
+   }
+
+   input {
       font-family: "DM Sans", sans-serif;
    }
+
    li,
    p {
       font-family: "DM Sans", sans-serif;
+   }
+   input[type="checkbox"] {
+      /* Hide the default checkbox appearance */
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      /* Set the size of the custom checkbox */
+      width: 0.8rem;
+      height: 0.8rem;
+      border: 1px solid black;
+      border-radius: 4px;
+      /* Set the background color when the checkbox is checked */
+      background-color: white;
+      /* Center the custom checkbox within its container */
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      margin-right: 0.5rem;
+   }
+
+   input[type="checkbox"]:checked {
+      /* Change the color of the checkmark when the checkbox is checked */
+      background-color: black;
+   }
+
+   /* Optional: Add a custom checkmark using ::before pseudo-element */
+   input[type="checkbox"]:checked::before {
+      content: "\2713";
+      color: white;
+      font-size: 0.5rem;
+      position: absolute;
+      left: 2px;
    }
 }
 
@@ -148,5 +199,75 @@
    }
    .custom-padding {
       @apply md:max-w-[90rem] md:px-[4rem] max-w-[26rem] px-[1rem] mx-auto;
+   }
+   /* Apply styles to the active pagination bullet */
+   .productSlider .swiper-pagination-bullet-active {
+      border: 2px solid #ffffff;
+      background: #ffffff;
+      width: 25px;
+      height: 25px;
+      margin: 0 5px;
+      transition: width 0.3s, height 0.3s, border-width 0.3s;
+   }
+
+   /* Apply styles to all pagination bullets */
+   .productSlider .swiper-pagination-bullet {
+      background: #ffffff;
+      border: 2px solid #ffffff;
+      width: 10px;
+      height: 10px;
+      margin: 5px 5px;
+      transition: width 0.3s, height 0.3s, border-width 0.3s;
+   }
+   /* Apply styles to the previous button's icon */
+   .productSlider .swiper-button-prev::after {
+      font-size: 2rem;
+   }
+
+   .productSlider .swiper-button-prev::after,
+   .productSlider .swiper-button-next::after {
+      font-size: 2rem;
+      color: #ffffff;
+      padding: 1rem;
+      width: 300px;
+   }
+
+   .productSlider .swiper-pagination-bullet-inactive {
+      background: #999999;
+   }
+
+   .main-nav {
+      overflow: auto;
+   }
+
+   .main-nav::-webkit-scrollbar {
+      height: 10px;
+   }
+
+   .main-nav::-webkit-scrollbar-thumb {
+      background-color: #c1c1c1;
+      border-radius: 8px;
+   }
+   .main-nav {
+      overflow: auto;
+   }
+
+   .main-nav::-webkit-scrollbar {
+      height: 10px;
+   }
+
+   .main-nav::-webkit-scrollbar-thumb {
+      background-color: #c1c1c1;
+      border-radius: 8px;
+   }
+   .btn {
+      background: none;
+      width: auto;
+      height: auto;
+      border-radius: 0;
+      border: 1px solid transparent;
+   }
+   .btn:hover {
+      background: transparent;
    }
 }

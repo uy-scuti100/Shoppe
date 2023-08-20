@@ -1,0 +1,26 @@
+[
+  {
+    "username": "user1",
+    "password": "hashed_password1"
+  },
+  {
+    "username": "user2",
+    "password": "hashed_password2"
+  },
+  {
+    "username": "Hussai",
+    "password": "$2b$10$/w7sXkxuYqZw2O39/KlKVOxoYOYcl288HTi7Hq.GTHDBFGIkBbU4K"
+  },
+  {
+    "username": "osirisis",
+    "password": "$2b$10$AyLC/05cpBAAytKN3ZQCo.UlULutSMvCV2E5RB8oqzIcaJOn794me"
+  },
+  {
+    "username": "plat",
+    "password": "$2b$10$.Ho6Pb/D2VVX6AMPayPV/OS0fmX2NYTVH0TuiGKeVHJhKQTlWYZ4y"
+  },
+  {
+    "username": "plattt",
+    "password": "$2b$10$iiFz9RvXLxID7XsMOmYcBO0GPEJt6kmoFewTsL27KHu4p456KtvPu"
+  }
+]

@@ -1,0 +1,604 @@
+{
+   "products": [
+      {
+         "id": "n1",
+         "name": "Eternal Heart Pendant",
+         "images": [
+            "/products/n1p1.webp",
+            "/products/n1p2.webp",
+            "/products/n1p3.webp",
+            "/products/n1p4.webp"
+         ],
+         "oldPrice": null,
+         "normalPrice": 120,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Embrace everlasting love with our \"Eternal Heart\" pendant, a symbol of eternal commitment and affection. Crafted in 18k gold, this pendant features a delicate heart-shaped diamond at its center.",
+         "details": "Pendant Material: 18k Gold, Stone: Diamond, Chain Length: 18 inches",
+         "additionalDetails": "Comes in a luxurious velvet box.",
+         "rating": 4.8,
+         "category": "Necklaces and Pendants"
+      },
+      {
+         "id": "n2",
+         "name": "Lunar Elegance Necklace",
+         "images": [
+            "/products/n2p1.webp",
+            "/products/n2p2.webp",
+            "/products/n2p3.webp",
+            "/products/n2p4.webp"
+         ],
+         "oldPrice": null,
+         "normalPrice": 95,
+         "discounted": false,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Illuminate your style with our \"Lunar Elegance\" necklace. A crescent moon pendant adorned with shimmering sapphires gracefully dangles from a sterling silver chain.",
+         "details": "Pendant Material: Sterling Silver, Stones: Sapphires, Chain Length: 20 inches",
+         "additionalDetails": "Nickel-free and hypoallergenic.",
+         "rating": 4.6,
+         "category": "Necklaces and Pendants"
+      },
+      {
+         "id": "n3",
+         "name": "Celestial Starburst Pendant",
+         "images": [
+            "/products/n3p1.webp",
+            "/products/n3p2.webp",
+            "/products/n3p3.webp",
+            "/products/n3p4.webp"
+         ],
+         "oldPrice": 180,
+         "normalPrice": 150,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Embrace the beauty of the night sky with our \"Celestial Starburst\" pendant. A burst of diamonds set in white gold captures the brilliance of twinkling stars, making this pendant a captivating accessory.",
+         "details": "Pendant Material: 14k White Gold, Stones: Diamonds, Chain Length: 16 inches",
+         "additionalDetails": "Includes a certificate of authenticity.",
+         "rating": 4.9,
+         "category": "Necklaces and Pendants"
+      },
+      {
+         "id": "n4",
+         "name": "Enchanted Forest Locket",
+         "images": [
+            "/products/n4p1.webp",
+            "/products/n4p2.webp",
+            "/products/n4p3.webp",
+            "/products/n4p4.webp"
+         ],
+         "oldPrice": null,
+         "normalPrice": 80,
+         "discounted": false,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Carry a piece of enchantment with you wherever you go. Our \"Enchanted Forest\" locket showcases a miniature forest scene, crafted with intricate detail in sterling silver.",
+         "details": "Locket Material: Sterling Silver, Chain Length: 24 inches, Opening Mechanism: Hinged",
+         "additionalDetails": "Locket opens to reveal a hidden compartment.",
+         "rating": 4.7,
+         "category": "Necklaces and Pendants"
+      },
+      {
+         "id": "n5",
+         "name": "Vintage Cameo Necklace",
+         "images": [
+            "/products/n5p1.webp",
+            "/products/n5p2.webp",
+            "/products/n5p3.webp",
+            "/products/n5p4.webp"
+         ],
+         "oldPrice": 85,
+         "normalPrice": 65,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": false,
+         "description": "Travel back in time with our \"Vintage Cameo\" necklace. The intricate cameo pendant depicts a classic portrait against a black onyx background, reminiscent of Victorian-era elegance.",
+         "details": "Pendant Material: Brass, Stone: Onyx, Chain Length: 18 inches",
+         "additionalDetails": "Includes a matching antique-style gift box.",
+         "rating": 4.4,
+         "category": "Necklaces and Pendants"
+      },
+      {
+         "id": "e1",
+         "name": "Diamond Halo Stud Earrings",
+         "images": [
+            "/products/e1p1.webp",
+            "/products/e1p2.webp",
+            "/products/e1p3.webp",
+            "/products/e1p4.webp"
+         ],
+         "oldPrice": 350,
+         "normalPrice": 300,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Radiate elegance with our \"Diamond Halo\" stud earrings. Round brilliant diamonds surrounded by a halo of smaller diamonds create a timeless and dazzling look.",
+         "details": "Material: 14k White Gold, Total Diamond Weight: 0.5 carats",
+         "additionalDetails": "Secure screw-back closure for added comfort.",
+         "rating": 4.9,
+         "category": "Earrings"
+      },
+      {
+         "id": "e2",
+         "name": "Pearl Drop Earrings",
+         "images": [
+            "/products/e2p1.webp",
+            "/products/e2p2.webp",
+            "/products/e2p3.webp",
+            "/products/e2p4.webp"
+         ],
+         "oldPrice": null,
+         "normalPrice": 120,
+         "discounted": false,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Elevate your style with our \"Pearl Drop\" earrings. Cultured pearls suspended from 18k gold hooks add a touch of sophistication to any ensemble.",
+         "details": "Material: 18k Gold, Pearl Size: 8mm, Hook Style: French Wire",
+         "additionalDetails": "Available in white and rose gold options.",
+         "rating": 4.7,
+         "category": "Earrings"
+      },
+      {
+         "id": "e3",
+         "name": "Chandelier Crystal Earrings",
+         "images": [
+            "/products/e3p1.webp",
+            "/products/e3p2.webp",
+            "/products/e3p3.webp",
+            "/products/e3p4.webp"
+         ],
+         "oldPrice": 180,
+         "normalPrice": 150,
+         "discounted": true,
+         "soldOut": true,
+         "isNew": true,
+         "description": "Capture attention with our \"Chandelier Crystal\" earrings. Sparkling crystals in an intricate chandelier design create a glamorous statement.",
+         "details": "Material: Rhodium-plated Brass, Crystal Color: Clear, Length: 2.5 inches",
+         "additionalDetails": "Ideal for special occasions and evening events.",
+         "rating": 4.6,
+         "category": "Earrings"
+      },
+      {
+         "id": "e4",
+         "name": "Hoop Earrings Set",
+         "images": [
+            "/products/e4p1.webp",
+            "/products/e4p2.webp",
+            "/products/e4p3.webp",
+            "/products/e4p4.webp"
+         ],
+         "oldPrice": 60,
+         "normalPrice": 45,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": false,
+         "description": "Versatile and stylish, our \"Hoop Earrings Set\" offers three sizes of hoops to suit any look. Mix and match or wear individually for effortless charm.",
+         "details": "Material: Stainless Steel, Hoop Sizes: Small, Medium, Large",
+         "additionalDetails": "Secure latch-back closures for easy wear.",
+         "rating": 4.5,
+         "category": "Earrings"
+      },
+      {
+         "id": "e5",
+         "name": "Art Deco Dangle Earrings",
+         "images": [
+            "/products/e5p1.webp",
+            "/products/e5p2.webp",
+            "/products/e5p3.webp",
+            "/products/e5p4.webp"
+         ],
+         "oldPrice": null,
+         "normalPrice": 85,
+         "discounted": false,
+         "soldOut": false,
+         "isNew": false,
+         "description": "Step into the glamorous era of the 1920s with our \"Art Deco\" dangle earrings. Geometric patterns and crystal accents evoke the spirit of the Jazz Age.",
+         "details": "Material: Alloy, Crystal Color: Black and Clear, Length: 3 inches",
+         "additionalDetails": "Complements vintage-inspired and modern outfits.",
+         "rating": 4.3,
+         "category": "Earrings"
+      },
+      {
+         "id": "r1",
+         "name": "Sapphire and Diamond Halo Ring",
+         "images": [
+            "/products/r1p1.webp",
+            "/products/r1p2.webp",
+            "/products/r1p3.webp",
+            "/products/r1p4.webp"
+         ],
+         "oldPrice": 550,
+         "normalPrice": 480,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Capture the allure of royalty with our \"Sapphire and Diamond Halo\" ring. A brilliant blue sapphire surrounded by a halo of diamonds creates a regal and exquisite piece.",
+         "details": "Material: 14k White Gold, Sapphire Weight: 1.2 carats, Diamond Weight: 0.25 carats",
+         "additionalDetails": "Elegantly presented in a wooden ring box.",
+         "rating": 4.9,
+         "category": "Rings"
+      },
+      {
+         "id": "r2",
+         "name": "Vintage Rose Gold Band",
+         "images": [
+            "/products/r2p1.webp",
+            "/products/r2p2.webp",
+            "/products/r2p3.webp",
+            "/products/r2p4.webp"
+         ],
+         "oldPrice": null,
+         "normalPrice": 220,
+         "discounted": false,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Experience timeless elegance with our \"Vintage Rose Gold\" band. Intricate detailing and warm rose gold combine to create a romantic and classic design.",
+         "details": "Material: 18k Rose Gold, Band Width: 4mm",
+         "additionalDetails": "Suitable for everyday wear or as a wedding band.",
+         "rating": 4.7,
+         "category": "Rings"
+      },
+      {
+         "id": "r3",
+         "name": "Emerald Cut Solitaire Ring",
+         "images": [
+            "/products/r3p1.webp",
+            "/products/r3p2.webp",
+            "/products/r3p3.webp",
+            "/products/r3p4.jpg"
+         ],
+         "oldPrice": 320,
+         "normalPrice": 280,
+         "discounted": true,
+         "soldOut": true,
+         "isNew": true,
+         "description": "Celebrate the allure of simplicity with our \"Emerald Cut Solitaire\" ring. A stunning emerald-cut diamond takes center stage in this classic and sophisticated design.",
+         "details": "Material: 14k Yellow Gold, Diamond Weight: 0.5 carats",
+         "additionalDetails": "Timeless beauty with a modern twist.",
+         "rating": 4.6,
+         "category": "Rings"
+      },
+      {
+         "id": "r4",
+         "name": "Stackable Gemstone Rings Set",
+         "images": [
+            "/products/r4p1.webp",
+            "/products/r4p2.webp",
+            "/products/r4p3.webp",
+            "/products/r4p4.webp"
+         ],
+         "oldPrice": 180,
+         "normalPrice": 150,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": false,
+         "description": "Express your individuality with our \"Stackable Gemstone Rings Set.\" Mix and match vibrant gemstone rings to create a personalized and colorful combination.",
+         "details": "Material: Sterling Silver, Gemstones: Amethyst, Blue Topaz, Citrine, Peridot",
+         "additionalDetails": "Ideal for creating a trendy stacked look.",
+         "rating": 4.5,
+         "category": "Rings"
+      },
+      {
+         "id": "r5",
+         "name": "Infinity Knot Promise Ring",
+         "images": [
+            "/products/r5p1.webp",
+            "/products/r5p2.jpg",
+            "/products/r5p3.jpg",
+            "/products/r5p4.jpg"
+         ],
+         "oldPrice": null,
+         "normalPrice": 90,
+         "discounted": false,
+         "soldOut": false,
+         "isNew": false,
+         "description": "Symbolize eternal love with our \"Infinity Knot\" promise ring. The intertwined design represents a bond that lasts forever, making it a perfect gift for special occasions.",
+         "details": "Material: Sterling Silver, Band Width: 2mm",
+         "additionalDetails": "Comes with a heartfelt gift box.",
+         "rating": 4.3,
+         "category": "Rings"
+      },
+      {
+         "id": "b1",
+         "name": "Diamond Tennis Bracelet",
+         "images": [
+            "/products/b1p1.webp",
+            "/products/b1p2.webp",
+            "/products/b1p3.webp",
+            "/products/b1p4.webp"
+         ],
+         "oldPrice": 800,
+         "normalPrice": 700,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Radiate timeless elegance with our \"Diamond Tennis\" bracelet. Round brilliant diamonds set in a continuous line create a sophisticated and sparkling accessory.",
+         "details": "Material: 18k White Gold, Total Diamond Weight: 3 carats",
+         "additionalDetails": "Features a secure box clasp with safety latch.",
+         "rating": 4.9,
+         "category": "Bracelets and Bangles"
+      },
+      {
+         "id": "b2",
+         "name": "Sapphire and Pearl Bangle",
+         "images": [
+            "/products/b2p1.webp",
+            "/products/b2p2.webp",
+            "/products/b2p3.webp",
+            "/products/b2p4.webp"
+         ],
+         "oldPrice": null,
+         "normalPrice": 220,
+         "discounted": false,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Celebrate elegance with our \"Sapphire and Pearl\" bangle. Lustrous pearls are interspersed with deep blue sapphires, creating a harmonious blend of color and luxury.",
+         "details": "Material: Sterling Silver, Pearl Size: 6mm, Sapphire Weight: 0.4 carats",
+         "additionalDetails": "Adjustable bangle fits most wrist sizes.",
+         "rating": 4.7,
+         "category": "Bracelets and Bangles"
+      },
+      {
+         "id": "b3",
+         "name": "Hammered Gold Cuff",
+         "images": [
+            "/products/b3p1.webp",
+            "/products/b3p2.webp",
+            "/products/b3p3.webp",
+            "/products/b3p4.webp"
+         ],
+         "oldPrice": 180,
+         "normalPrice": 150,
+         "discounted": true,
+         "soldOut": true,
+         "isNew": true,
+         "description": "Embrace contemporary style with our \"Hammered Gold\" cuff. The textured surface and polished edges combine for a sleek and versatile accessory.",
+         "details": "Material: 14k Gold, Width: 15mm",
+         "additionalDetails": "Fits wrist sizes up to 7 inches.",
+         "rating": 4.6,
+         "category": "Bracelets and Bangles"
+      },
+      {
+         "id": "b4",
+         "name": "Gemstone Bead Bracelet Set",
+         "images": [
+            "/products/b4p1.webp",
+            "/products/b4p2.webp",
+            "/products/b4p3.webp",
+            "/products/b4p4.webp"
+         ],
+         "oldPrice": 120,
+         "normalPrice": 95,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": false,
+         "description": "Express your personality with our \"Gemstone Bead Bracelet Set.\" A trio of bracelets featuring colorful gemstone beads creates a vibrant and versatile accessory.",
+         "details": "Material: Elastic Cord, Gemstones: Amethyst, Lapis Lazuli, Rose Quartz",
+         "additionalDetails": "Stretchy cord ensures a comfortable fit.",
+         "rating": 4.5,
+         "category": "Bracelets and Bangles"
+      },
+      {
+         "id": "b5",
+         "name": "Engraved Bangle Set",
+         "images": [
+            "/products/b5p1.webp",
+            "/products/b5p2.webp",
+            "/products/b5p3.webp",
+            "/products/b5p4.webp"
+         ],
+         "oldPrice": null,
+         "normalPrice": 85,
+         "discounted": false,
+         "soldOut": false,
+         "isNew": false,
+         "description": "Personalize your style with our \"Engraved Bangle Set.\" Delicate bangles featuring meaningful engravings add a touch of sentiment and elegance to your look.",
+         "details": "Material: Stainless Steel, Set includes: 3 bangles",
+         "additionalDetails": "Adjustable and stackable for versatile styling.",
+         "rating": 4.3,
+         "category": "Bracelets and Bangles"
+      },
+      {
+         "id": "w1",
+         "name": "Classic Leather Strap Watch",
+         "images": [
+            "/products/w1p1.webp",
+            "/products/w1p2.webp",
+            "/products/w1p3.webp",
+            "/products/w1p4.webp"
+         ],
+         "oldPrice": 120,
+         "normalPrice": 100,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Elevate your style with our \"Classic Leather Strap\" watch. A timeless design featuring a genuine leather strap and a minimalist dial.",
+         "details": "Material: Stainless Steel Case, Genuine Leather Strap",
+         "additionalDetails": "Water-resistant up to 30 meters.",
+         "rating": 4.9,
+         "category": "Watches"
+      },
+      {
+         "id": "w2",
+         "name": "Sport Chronograph Watch",
+         "images": [
+            "/products/w2p1.webp",
+            "/products/w2p2.webp",
+            "/products/w2p3.webp",
+            "/products/w2p4.webp"
+         ],
+         "oldPrice": null,
+         "normalPrice": 180,
+         "discounted": false,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Stay on top of your game with our \"Sport Chronograph\" watch. Features multiple dials, a tachymeter bezel, and a durable stainless steel case.",
+         "details": "Material: Stainless Steel Case and Bracelet, Chronograph Movement",
+         "additionalDetails": "Luminous hands for visibility in low light.",
+         "rating": 4.7,
+         "category": "Watches"
+      },
+      {
+         "id": "w3",
+         "name": "Diamond Accent Dress Watch",
+         "images": [
+            "/products/w3p1.webp",
+            "/products/w3p2.webp",
+            "/products/w3p3.webp",
+            "/products/w3p4.webp"
+         ],
+         "oldPrice": 280,
+         "normalPrice": 250,
+         "discounted": true,
+         "soldOut": true,
+         "isNew": true,
+         "description": "Shine bright with our \"Diamond Accent Dress\" watch. A mother-of-pearl dial and diamond accents create a sophisticated and luxurious look.",
+         "details": "Material: Stainless Steel Case and Bracelet, Diamond Accents",
+         "additionalDetails": "Date display and scratch-resistant sapphire crystal.",
+         "rating": 4.6,
+         "category": "Watches"
+      },
+      {
+         "id": "w4",
+         "name": "Digital Fitness Tracker Watch",
+         "images": [
+            "/products/w4p1.webp",
+            "/products/w4p2.webp",
+            "/products/w4p3.webp",
+            "/products/w4p4.webp"
+         ],
+         "oldPrice": 65,
+         "normalPrice": 50,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": false,
+         "description": "Stay active and connected with our \"Digital Fitness Tracker\" watch. Features heart rate monitoring, step counting, and smartphone notifications.",
+         "details": "Material: Silicone Strap, Touchscreen Display, Fitness Tracking",
+         "additionalDetails": "Water-resistant design for workouts and outdoor activities.",
+         "rating": 4.5,
+         "category": "Watches"
+      },
+      {
+         "id": "w5",
+         "name": "Automatic Skeleton Watch",
+         "images": [
+            "/products/w5p1.webp",
+            "/products/w5p2.webp",
+            "/products/w5p3.webp",
+            "/products/w5p4.webp"
+         ],
+         "oldPrice": null,
+         "normalPrice": 300,
+         "discounted": false,
+         "soldOut": false,
+         "isNew": false,
+         "description": "Experience the mechanics of time with our \"Automatic Skeleton\" watch. The transparent dial reveals the intricate inner workings of the automatic movement.",
+         "details": "Material: Stainless Steel Case and Bracelet, Automatic Movement",
+         "additionalDetails": "Exhibition case back for a view of the movement.",
+         "rating": 4.3,
+         "category": "Watches"
+      },
+      {
+         "id": "sc1",
+         "name": "Elegant Pearl Set",
+         "images": [
+            "/products/s1p1.webp",
+            "/products/s1p2.webp",
+            "/products/s1p3.webp",
+            "/products/s1p4.webp"
+         ],
+         "oldPrice": 350,
+         "normalPrice": 280,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Complete your look with our \"Elegant Pearl Set.\" This set includes a pearl necklace, matching earrings, and a bracelet for a touch of timeless sophistication.",
+         "details": "Material: Freshwater Pearls, Sterling Silver",
+         "additionalDetails": "Adjustable necklace length for versatile styling.",
+         "rating": 4.9,
+         "category": "Sets and Collections"
+      },
+      {
+         "id": "sc2",
+         "name": "Boho Gemstone Collection",
+         "images": [
+            "/products/s2p1.webp",
+            "/products/s2p2.webp",
+            "/products/s2p3.webp",
+            "/products/s2p4.webp"
+         ],
+         "oldPrice": null,
+         "normalPrice": 200,
+         "discounted": false,
+         "soldOut": false,
+         "isNew": true,
+         "description": "Express your individuality with our \"Boho Gemstone Collection.\" This collection features a necklace, earrings, and ring with vibrant and unique gemstones.",
+         "details": "Materials: Various Gemstones, Alloy",
+         "additionalDetails": "Each piece is handmade for an artisanal touch.",
+         "rating": 4.7,
+         "category": "Sets and Collections"
+      },
+      {
+         "id": "sc3",
+         "name": "Vintage Cameo Set",
+         "images": [
+            "/products/s3p1.webp",
+            "/products/s3p2.webp",
+            "/products/s3p3.webp",
+            "/products/s3p4.webp"
+         ],
+         "oldPrice": 180,
+         "normalPrice": 150,
+         "discounted": true,
+         "soldOut": true,
+         "isNew": true,
+         "description": "Step back in time with our \"Vintage Cameo Set.\" This set features a cameo necklace and matching earrings that exude classic elegance.",
+         "details": "Material: Resin Cameo, Alloy",
+         "additionalDetails": "Nickel-free and hypoallergenic materials.",
+         "rating": 4.6,
+         "category": "Sets and Collections"
+      },
+      {
+         "id": "sc4",
+         "name": "Artisan Enamel Collection",
+         "images": [
+            "/products/s4p1.webp",
+            "/products/s4p2.webp",
+            "/products/s4p3.webp",
+            "/products/s4p4.webp"
+         ],
+         "oldPrice": 300,
+         "normalPrice": 250,
+         "discounted": true,
+         "soldOut": false,
+         "isNew": false,
+         "description": "Discover the beauty of craftsmanship with our \"Artisan Enamel Collection.\" This collection features hand-painted enamel details on a necklace and earrings.",
+         "details": "Material: Enamel, Gold-Plated Brass",
+         "additionalDetails": "Vibrant and durable enamel work for long-lasting wear.",
+         "rating": 4.5,
+         "category": "Sets and Collections"
+      },
+      {
+         "id": "sc5",
+         "name": "Wedding Bliss Set",
+         "images": [
+            "/products/s5p1.webp",
+            "/products/s5p2.webp",
+            "/products/s5p3.webp",
+            "/products/s5p4.webp"
+         ],
+         "oldPrice": null,
+         "normalPrice": 180,
+         "discounted": false,
+         "soldOut": false,
+         "isNew": false,
+         "description": "Celebrate your special day with our \"Wedding Bliss Set.\" This set includes a necklace and earrings designed to add a touch of elegance to your wedding ensemble.",
+         "details": "Material: Cubic Zirconia, Silver-Plated Alloy",
+         "additionalDetails": "A stunning choice for brides and bridesmaids.",
+         "rating": 4.3,
+         "category": "Sets and Collections"
+      }
+   ]
+}

@@ -1,13 +1,15 @@
-import { categories } from "@/constants/category,";
+import { categories } from "@/constants/category";
 import React from "react";
 
 const CategorySlider = () => {
    return (
-      <section className="flex flex-no-wrap items-center gap-2 pt-4 overflow-x-auto">
+      <section className="flex items-center py-2 pt-4 mx-auto space-x-4 lg:space-x-6 main-nav">
          {categories.map((cat, i) => (
-            <button key={i} className="border border-Gray">
+            <p
+               key={i}
+               className="border border-Gray rounded px-4 w-max flex justify-center items-center whitespace-nowrap h-10 cursor-pointer">
                {cat}
-            </button>
+            </p>
          ))}
       </section>
    );

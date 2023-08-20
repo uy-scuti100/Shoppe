@@ -11,6 +11,7 @@ import profile from "../../public/assets/profile.svg";
 import logout from "../../public/assets/logout.svg";
 import Search from "./Search";
 import Link from "next/link";
+import { navLinks } from "@/constants/navLinks";
 
 const Header = () => {
    const [openMenu, setOpenMenu] = useState<boolean>(false);
@@ -31,12 +32,12 @@ const Header = () => {
    return (
       <header className="custom-padding h-[1.125rem] flex justify-between items-center pt-8 md:pt-[4.12rem] relative">
          <div>
-            <span className="allerta">S</span>
-            <span className="allerta-black">HOPPE</span>
+            <span className="allerta">O</span>
+            <span className="allerta-black">SIRIS</span>
          </div>
          <nav className="flex items-center md:gap-12 md:divide-x">
             <div
-               className={`absolute transition-all duration-500 top-14 z-50 h-[100vh] bg-white justify-center items-center md:bg-transparent md:static md:flex md:flex-row ${
+               className={`absolute transition-all duration-500 top-14 z-50 h-[100vh] md:h-auto bg-white justify-center items-center md:bg-transparent md:static md:flex md:flex-row ${
                   openMenu ? "left-0" : "-left-[200%]"
                }`}>
                <div className="bg-white text-Black">
@@ -46,76 +47,22 @@ const Header = () => {
                      </div>
                      <div className="mt-[2.44rem]">
                         <ul className="flex flex-col items-start gap-6 px-4 text-left ">
-                           <Link
-                              href="/"
-                              className={`hover:scale-[1.1] border-Black transition-border ease ${
-                                 path === "/" ? "border-b" : ""
-                              }`}
-                              onClick={smoothScrollAndCloseMenu}>
-                              <li>
-                                 <h3>Home</h3>
-                              </li>
-                           </Link>
-                           <Link
-                              href="/shop"
-                              className={`hover:scale-[1.1] border-Black transition-border ease ${
-                                 path === "/shop" ? "border-b-2" : ""
-                              }`}
-                              onClick={smoothScrollAndCloseMenu}>
-                              <li>
-                                 <h3>Shop</h3>
-                              </li>
-                           </Link>
-                           <Link
-                              href="/about"
-                              className={`hover:scale-[1.1] border-Black transition-border ease ${
-                                 path === "/about" ? "border-b-2" : ""
-                              }`}
-                              onClick={smoothScrollAndCloseMenu}>
-                              <li>
-                                 <h3>About</h3>
-                              </li>
-                           </Link>
-                           <Link
-                              href="/blog"
-                              className={`hover:scale-[1.1] border-Black transition-border ease ${
-                                 path === "/blog" ? "border-b-2" : ""
-                              }`}
-                              onClick={smoothScrollAndCloseMenu}>
-                              <li>
-                                 <h3>Blog</h3>
-                              </li>
-                           </Link>
-                           <Link
-                              href="/help"
-                              className={`hover:scale-[1.1] border-Black transition-border ease ${
-                                 path === "/help" ? "border-b-2" : ""
-                              }`}
-                              onClick={smoothScrollAndCloseMenu}>
-                              <li>
-                                 <h3>Help</h3>
-                              </li>
-                           </Link>
-                           <Link
-                              href="/contact"
-                              className={`hover:scale-[1.1] border-Black transition-border ease ${
-                                 path === "/contact" ? "border-b-2" : ""
-                              }`}
-                              onClick={smoothScrollAndCloseMenu}>
-                              <li>
-                                 <h3>Contact</h3>
-                              </li>
-                           </Link>
-                           <Link
-                              href="/search"
-                              className={`hover:scale-[1.1] border-Black transition-border ease ${
-                                 path === "/search" ? "border-b" : ""
-                              }`}
-                              onClick={smoothScrollAndCloseMenu}>
-                              <li>
-                                 <h3>Search</h3>
-                              </li>
-                           </Link>
+                           {navLinks.map((link) => {
+                              const { label, href } = link;
+                              return (
+                                 <Link
+                                    key={link.href}
+                                    href={href}
+                                    className={`hover:scale-[1.1] border-Black transition-border ease ${
+                                       path === href ? "border-b" : ""
+                                    }`}
+                                    onClick={smoothScrollAndCloseMenu}>
+                                    <li>
+                                       <h3>{label}</h3>
+                                    </li>
+                                 </Link>
+                              );
+                           })}
                         </ul>
                         <div className="mt-8 border-t border-LightGray" />
                         <div className="flex flex-col gap-8 px-4 mt-8">
